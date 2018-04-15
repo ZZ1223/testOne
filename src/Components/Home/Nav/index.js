@@ -17,7 +17,7 @@ class Nav extends Component{
 		var t =document.documentElement.scrollTop||document.body.scrollTop;
 		if(ulTop<t){
 			uls[1].style.position="fixed";
-			uls[1].style.top="0px";
+			uls[1].style.top="0px";		
 		}else{
 			uls[1].style.position="static";
 		}
@@ -65,13 +65,10 @@ class Nav extends Component{
 			</div>
 		);
 	}
-	aaa
-	bbb
 
 	mycenter(){
 		this.props.myhistory.history.push('/mycenter')
 	}
 }
-
 
 export default Nav;
